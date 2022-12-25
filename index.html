@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>My test page</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="/index.js" async></script>
+    </head>
+    <body>
+        <p>
+            <select id="duelists">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            デュエリストの人数を選んでください
+        </p>
+    
+
+        <p>
+            <select id="initiator">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            イニシエーターの人数を選んでください
+        </p>
+
+        <p>
+            <select id="controller">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            コントローラーの人数を選んでください
+        </p>
+
+        <p>
+            <select id="sentinels">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            センチネルの人数を選んでください
+        </p><br>
+        <input type="button" value="実行" onclick="randomCheck()">
+
+        <table>
+            <tr>
+                <th>PL1</th><td><p id="PL1">undefined</p></td>
+            </tr>
+            <tr>
+                <th>PL2</th><td><p id="PL2">undefined</p></td>
+            </tr>
+            <tr>
+                <th>PL3</th><td><p id="PL3">undefined</p></td>
+            </tr>
+            <tr>
+                <th>PL4</th><td><p id="PL4">undefined</p></td>
+            </tr>
+            <tr>
+                <th>PL5</th><td><p id="PL5">undefined</p></td>
+            </tr>
+        </table>
+    </body>
