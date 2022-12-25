@@ -1,6 +1,6 @@
 var dueList = ["ジェット - Jett","レイズ - Raze","フェニックス - Phoenix","レイナ - Reyna","ヨル - Yoru","ネオン - Neon"];
 var iniList = ["ブリーチ - Breach","ソーヴァ - Sova","スカイ - Skye","KAY/O - ケイ・オー","フェイド - Fade"];
-var conList = ["オーメン - Omen","ブリムストーン - Brimstone","ヴァイパー - Viper","アストラ - Astra"];
+var conList = ["オーメン - Omen","ブリムストーン - Brimstone","ヴァイパー - Viper","アストラ - Astra","ハーバー - Harbor"];
 var senList = ["セージ - Sage","サイファー - Cypher","キルジョイ - Killjoy","チェンバー - Chamber"];
 var setList = []
 
